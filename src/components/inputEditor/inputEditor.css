@@ -1,0 +1,9 @@
+.code-editor {
+    border-right: 1px solid gray;
+    overflow-y: scroll;
+    padding: .1rem 1rem 0 0.4rem;
+}
+
+.code-editor textarea{
+    outline: none;
+}
