@@ -14,7 +14,7 @@ function MarkDownPreview({value}){
       }
 
     return (
-        <div style={{overflowY:'scroll'}}>
+        <div style={{overflowY:'scroll',paddingLeft:'0.4rem'}}>
             <div dangerouslySetInnerHTML={{ __html: markDownHTML }} />
         </div>
     )
